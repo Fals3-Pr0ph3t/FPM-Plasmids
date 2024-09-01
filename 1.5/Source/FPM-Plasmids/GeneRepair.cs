@@ -17,7 +17,7 @@ namespace FPMPlasmids
 
             base.Tick();
 
-            if (pawn.IsHashIntervalTick(180))
+            if (pawn.IsHashIntervalTick(600))
             {
 
                 foreach (Gene gene in pawn.genes.GenesListForReading)
