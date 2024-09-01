@@ -24,7 +24,7 @@ namespace FPMPlasmids
                     GeneList(this);
                     string GeneList(PlasmidDef plasmidDef)
                     {
-                        if (plasmidDef.geneSet == null || plasmidDef.geneSet.Count == 0)
+                        if (plasmidDef.geneSet == null || plasmidDef.geneSet.Count == 0 && plasmidDef.defName != null)
                         {
                             Log.Error($"{plasmidDef}'s gene set is empty or null.");
                             return string.Empty;

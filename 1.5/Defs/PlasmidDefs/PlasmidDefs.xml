@@ -56,6 +56,7 @@ of a plasmid so you can start making your own.
 <label>repairtest</label>
 <transfer>false</transfer>
 <abilities>
+    <li>ImplantPlasmid</li>
 </abilities>
 <geneSet>
     <li>repairtest</li> <!--If this isn't here then the plasmid won't propagate.-->

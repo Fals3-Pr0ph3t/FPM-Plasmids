@@ -7,9 +7,9 @@ using Verse;
 
 namespace FPMPlasmids
 {
-    public class CompAbilityEffect_ImplantPlasmids : CompAbilityEffect
+    public class CompAbilityEffect_PlasmidImplanter : CompAbilityEffect
     {
-        public new AbilityCompProperties_ImplantPlasmids Props => (AbilityCompProperties_ImplantPlasmids)props;
+        public new AbilityCompProperties_PlasmidImplanter Props => (AbilityCompProperties_PlasmidImplanter)props;
 
         private bool isPlasmidSelected;
         private List<FloatMenuOption> menuOptions = new List<FloatMenuOption>();
@@ -52,29 +52,14 @@ namespace FPMPlasmids
                 return;
             }
 
-            // If there's only one plasmid, apply it directly
-            if (genePlasmids.Count == 1)
-            {
-                // Add genes to the target pawn
-                EBSGFramework.EBSGUtilities.AddGenesToPawn(target.Pawn, genePlasmids.Values.First().xenogene, genePlasmids.Values.First().geneSet);
-                // Transfer genes if specified
-                if (genePlasmids.Values.First().transfer)
-                {
-                    EBSGFramework.EBSGUtilities.RemoveGenesFromPawn(casterPawn, genePlasmids.Values.First().geneSet);
-                }
-                // Remove genes from the caster pawn if specified
-                if (genePlasmids.Values.First().removedGenes != null && genePlasmids.Values.First().removedGenes.Any())
-                {
-                    EBSGFramework.EBSGUtilities.RemoveGenesFromPawn(casterPawn, genePlasmids.Values.First().removedGenes);
-                }
-                isPlasmidSelected = true;
-                return;
-            }
+            
 
             // Create a list of menu options for the float menu
 
             foreach (KeyValuePair<string, PlasmidDef> kvp in genePlasmids)
             {
+                if (target.Pawn.genes.HasActiveGene(kvp.Value as GeneDef)){ continue; }
+                
                 // Placeholder: Define the action to be performed when this option is selected
                 Action selectAction = () =>
                 {
@@ -91,6 +76,10 @@ namespace FPMPlasmids
                         EBSGFramework.EBSGUtilities.RemoveGenesFromPawn(casterPawn, kvp.Value.removedGenes);
                     }
                     isPlasmidSelected = true;
+
+                    HediffDef loss = DefDatabase<HediffDef>.GetNamed("XenogermLossShock");
+                    if (casterPawn.health.hediffSet.TryGetHediff(loss, out Hediff hediff)) { return; }
+                    else { casterPawn.health.AddHediff(loss); }
                 };
 
                 // Create a menu option and add it to the list
@@ -113,16 +102,6 @@ namespace FPMPlasmids
                 }
             };
             Find.WindowStack.Add(floatMenu);
-
-
-
-            
-            HediffDef loss = DefDatabase<HediffDef>.GetNamed("XenogermLossShock");
-            if (casterPawn.health.hediffSet.TryGetHediff(loss, out Hediff hediff))
-            {
-                return;
-            }
-            casterPawn.health.AddHediff(loss);
             floatMenu = null;
         }
     }

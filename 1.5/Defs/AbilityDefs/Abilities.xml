@@ -31,7 +31,7 @@
       </targetParams>
     </verbProperties>
     <comps>
-      <li Class="FPMPlasmids.AbilityCompProperties_ImplantPlasmids"></li>
+      <li Class="FPMPlasmids.AbilityCompProperties_PlasmidImplanter"></li>
     </comps>
   </AbilityDef>
 

@@ -67,13 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompAbilityEffect_ImplantPlasmids.cs" />
+    <Compile Include="CompAbilityEffect_PlasmidImplanter.cs" />
     <Compile Include="FPM_Utils.cs" />
     <Compile Include="Plasmid.cs" />
-    <Compile Include="CompAbilityEffect_ImplantPlasmid.cs" />
-    <Compile Include="CompProperties_ImplantPlasmid.cs" />
+    <Compile Include="CompProperties_PlasmidImplanter.cs" />
+    <Compile Include="PlasmidRegrowth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GeneRepair.cs" />
+    <Compile Include="RepairGene.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
