@@ -15,8 +15,24 @@
 <geneSet>
     <!--Empty-->
     <li>repairtest</li> <!--If this isn't here then the plasmid won't propagate.-->
-    <li>FireSpew</li>
     <li>FoamSpray</li>
+</geneSet>
+
+<removedGenes>
+    <!-- Empty -->    
+</removedGenes>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>implantPlasmid</defName>
+<label>implant plasmid</label>
+<transfer>false</transfer>
+<abilities>
+    <li>ImplantPlasmid</li>
+</abilities>
+<geneSet>
+    <!--Empty-->
+    <li>implantPlasmid</li> <!--If this isn't here then the plasmid won't propagate.-->
 </geneSet>
 
 <removedGenes>

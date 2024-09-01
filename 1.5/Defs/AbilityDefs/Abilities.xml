@@ -6,8 +6,8 @@
     <displayOrder>2000</displayOrder>
   </AbilityCategoryDef>
 
-<AbilityDef ParentName="AbilityTouchBase" Name="PlasmidTransferBase" Abstract="True">
-	<defName>PlasmidTransferBase</defName>
+<AbilityDef ParentName="AbilityTouchBase">
+	<defName>ImplantPlasmid</defName>
 	<label>implant plasmid</label>
 	<description>Implant a plasmid into the target.</description>
 	<category>Plasmid</category>
@@ -30,27 +30,13 @@
         <canTargetMechs>false</canTargetMechs>
       </targetParams>
     </verbProperties>
+    <comps>
+      <li Class="FPMPlasmids.AbilityCompProperties_ImplantPlasmids"></li>
+    </comps>
   </AbilityDef>
 
 <!-- line break -->
 
-
-
-
-
-
-<AbilityDef ParentName="PlasmidTransferBase">
-	<defName>Plasmid01</defName>
-    <comps>
-		<li Class="FPMPlasmids.AbilityCompProperties_ImplantPlasmids">
-			<plasmidDefs>
-				<li>Plasmid01</li>
-        <li>repairtest</li>
-			</plasmidDefs>
-		</li>
-    </comps>
-
-</AbilityDef>
 
 
 
