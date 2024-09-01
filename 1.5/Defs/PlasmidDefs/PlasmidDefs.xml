@@ -19,6 +19,7 @@
 </abilities>
 <geneSet>
     <!--Empty-->
+    <li>repairtest</li>
     <li>Plasmid01</li> <!--If this isn't here then the plasmid won't propagate.-->
 </geneSet>
 
@@ -26,6 +27,7 @@
     <!-- Empty -->    
 </removedGenes>
 </FPMPlasmids.PlasmidDef>
+
 
 
 </Defs>

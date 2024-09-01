@@ -10,4 +10,12 @@ namespace FPMPlasmids
             compClass = typeof(CompAbilityEffect_ImplantPlasmid);
         }
     }
+
+    public class AbilityCompProperties_ImplantPlasmids : CompProperties_AbilityEffect
+    {
+        public AbilityCompProperties_ImplantPlasmids()
+        {
+            compClass = typeof(CompAbilityEffect_ImplantPlasmids);
+        }
+    }
 }

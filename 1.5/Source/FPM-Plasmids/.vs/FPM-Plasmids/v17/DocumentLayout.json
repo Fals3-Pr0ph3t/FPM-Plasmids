@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\fpm-plasmids\\1.5\\source\\fpm-plasmids\\compproperties_implantplasmid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|solutionrelative:compproperties_implantplasmid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\fpm-plasmids\\1.5\\source\\fpm-plasmids\\compabilityeffect_implantplasmids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|solutionrelative:compabilityeffect_implantplasmids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\fpm-plasmids\\1.5\\source\\fpm-plasmids\\fpm_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|solutionrelative:fpm_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\fpm-plasmids\\1.5\\source\\fpm-plasmids\\generepair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|solutionrelative:generepair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\fpm-plasmids\\1.5\\source\\fpm-plasmids\\compabilityeffect_implantplasmid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|solutionrelative:compabilityeffect_implantplasmid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FPM_Utils.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\FPM_Utils.cs",
+              "RelativeDocumentMoniker": "FPM_Utils.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\FPM_Utils.cs",
+              "RelativeToolTip": "FPM_Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:00:43.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CompProperties_ImplantPlasmid.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\CompProperties_ImplantPlasmid.cs",
+              "RelativeDocumentMoniker": "CompProperties_ImplantPlasmid.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\CompProperties_ImplantPlasmid.cs",
+              "RelativeToolTip": "CompProperties_ImplantPlasmid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:52:41.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompAbilityEffect_ImplantPlasmid.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\CompAbilityEffect_ImplantPlasmid.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_ImplantPlasmid.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\CompAbilityEffect_ImplantPlasmid.cs",
+              "RelativeToolTip": "CompAbilityEffect_ImplantPlasmid.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:53:26.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompAbilityEffect_ImplantPlasmids.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\CompAbilityEffect_ImplantPlasmids.cs",
+              "RelativeDocumentMoniker": "CompAbilityEffect_ImplantPlasmids.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\CompAbilityEffect_ImplantPlasmids.cs",
+              "RelativeToolTip": "CompAbilityEffect_ImplantPlasmids.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:52:08.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GeneRepair.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\GeneRepair.cs",
               "RelativeDocumentMoniker": "GeneRepair.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\GeneRepair.cs",
               "RelativeToolTip": "GeneRepair.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAArAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T01:48:22.377Z",
               "EditorCaption": ""

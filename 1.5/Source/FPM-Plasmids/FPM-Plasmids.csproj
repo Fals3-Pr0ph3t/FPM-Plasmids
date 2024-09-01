@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompAbilityEffect_ImplantPlasmids.cs" />
     <Compile Include="FPM_Utils.cs" />
     <Compile Include="Plasmid.cs" />
     <Compile Include="CompAbilityEffect_ImplantPlasmid.cs" />

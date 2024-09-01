@@ -42,9 +42,10 @@
 <AbilityDef ParentName="PlasmidTransferBase">
 	<defName>Plasmid01</defName>
     <comps>
-		<li Class="FPMPlasmids.AbilityCompProperties_ImplantPlasmid">
+		<li Class="FPMPlasmids.AbilityCompProperties_ImplantPlasmids">
 			<plasmidDefs>
 				<li>Plasmid01</li>
+        <li>repairtest</li>
 			</plasmidDefs>
 		</li>
     </comps>
