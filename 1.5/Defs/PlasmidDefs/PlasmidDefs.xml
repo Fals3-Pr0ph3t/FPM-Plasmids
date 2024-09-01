@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<FPMPlasmids.PlasmidDef Name="PlasmidBase" Abstract="True">
+<description>A bundle of genes that can be passed on</description>
+<iconPath>UI/Icons/Genes/Gene_XenogermReimplanter</iconPath>
+<label>Plasmid</label>
+<transfer>false</transfer>
+</FPMPlasmids.PlasmidDef>
+
+<!-- line break -->
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>Plasmid01</defName>
+<label>Plasmid01</label>
+<transfer>false</transfer>
+<abilities>
+    <li>Plasmid01</li>
+</abilities>
+<geneSet>
+    <!--Empty-->
+    <li>Plasmid01</li> <!--If this isn't here then the plasmid won't propagate.-->
+</geneSet>
+
+<removedGenes>
+    <!-- Empty -->    
+</removedGenes>
+</FPMPlasmids.PlasmidDef>
+
+
+</Defs>

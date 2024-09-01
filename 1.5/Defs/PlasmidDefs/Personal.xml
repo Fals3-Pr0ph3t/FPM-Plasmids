@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<!-- line break -->
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<geneClass>FPMPlasmids.RepairGene</geneClass>
+<defName>repairtest</defName>
+<label>repairtest</label>
+<transfer>false</transfer>
+<abilities>
+    <!--Empty-->
+</abilities>
+<geneSet>
+    <!--Empty-->
+    <li>repairtest</li> <!--If this isn't here then the plasmid won't propagate.-->
+    <li>FireSpew</li>
+    <li>FoamSpray</li>
+</geneSet>
+
+<removedGenes>
+    <!-- Empty -->    
+</removedGenes>
+</FPMPlasmids.PlasmidDef>
+
+
+</Defs>
