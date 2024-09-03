@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>GeneticBanshee</defName>
+<label>genetic banshee</label>
+<description>This plasmid infuses the host with the eerie qualities of a banshee.</description>
+<transfer>true</transfer>
+<abilities>
+</abilities>
+<geneSet>
+    <li MayRequire="sarg.alphagenes">AG_BansheeScream</li>
+    <li MayRequire="sarg.alphagenes">AG_Invisibility</li>
+    <li MayRequire="sarg.alphagenes">AG_SelfSkip</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+      <li Class="FPMPlasmids.FPM_GeneExtension">
+          <geneRepair>True</geneRepair>
+      </li>
+  </modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>FPM_ColdBlooded</defName>
+<label>cold blooded</label>
+<description>This plasmid alters the host's physiology to thrive in warmer environments.</description>
+<transfer>false</transfer>
+<abilities>
+</abilities>
+<geneSet>
+      <li>MinTemp_SmallIncrease</li>
+      <li>MaxTemp_LargeIncrease</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+      <li Class="FPMPlasmids.FPM_GeneExtension">
+          <geneRepair>True</geneRepair>
+      </li>
+  </modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>FPM_HotBlooded</defName>
+<label>hot blooded</label>
+<description>This plasmid alters the host's physiology to thrive in cooler environments.</description>
+<transfer>false</transfer>
+<abilities>
+</abilities>
+<geneSet>
+      <li>MinTemp_LargeDecrease</li>
+      <li>MaxTemp_SmallDecrease</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+      <li Class="FPMPlasmids.FPM_GeneExtension">
+          <geneRepair>True</geneRepair>
+      </li>
+  </modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>FPM_MechLink</defName>
+<label>mechanite plasmid</label>
+<description>This plasmid is infused with mechanites that allow the host to link to mechanoids.</description>
+<transfer>false</transfer>
+<abilities>
+</abilities>
+<geneSet>
+      <li MayRequire="sarg.alphagenes">AG_InnateMechlink</li>
+      <li MayRequire="sarg.alphagenes">AG_BandwidthIncrease</li>
+      <li MayRequire="sarg.alphagenes">AG_IncreasedCommandRange</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+      <li Class="FPMPlasmids.FPM_GeneExtension">
+          <geneRepair>True</geneRepair>
+      </li>
+  </modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>FPM_Werewolf</defName>
+<label>werewolf plasmid</label>
+<description>This plasmid, well, it makes you a werewolf.</description>
+<transfer>false</transfer>
+<abilities>
+</abilities>
+<geneSet>
+      <li MayRequire="vanillaracesexpanded.lycanthrope">VRE_Morphs_VRE_Lycan</li>
+      <li MayRequire="vanillaracesexpanded.lycanthrope">VRE_Morphs_NocturnalMorphing</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+      <li Class="FPMPlasmids.FPM_GeneExtension">
+          <geneRepair>True</geneRepair>
+      </li>
+  </modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>FPM_PollutedBody</defName>
+<label>polluted body</label>
+<description>This plasmid allows the host's body to utilze toxic material.</description>
+<transfer>false</transfer>
+<abilities>
+</abilities>
+<geneSet>
+      <li MayRequire="vanillaracesexpanded.waster">VREW_PollutionRegeneration</li>
+      <li MayRequire="vanillaracesexpanded.waster">VREW_PollutionRage</li>
+      <li MayRequire="vanillaracesexpanded.waster">VREW_PollutionAccuracy</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+      <li Class="FPMPlasmids.FPM_GeneExtension">
+          <geneRepair>True</geneRepair>
+      </li>
+  </modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>FPM_PollutedMind</defName>
+<label>polluted mind</label>
+<description>This plasmid allows the host's brain to utilze toxic material.</description>
+<transfer>false</transfer>
+<abilities>
+</abilities>
+<geneSet>
+      <li MayRequire="vanillaracesexpanded.waster">VREW_PollutionRush</li>
+      <li MayRequire="vanillaracesexpanded.waster">VREW_PollutionCognition</li>
+      <li MayRequire="vanillaracesexpanded.waster">VREW_PollutionPsySensitivity</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+      <li Class="FPMPlasmids.FPM_GeneExtension">
+          <geneRepair>True</geneRepair>
+      </li>
+  </modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>FPM_FountainofYouth</defName>
+<label>fountain of youth</label>
+<description>This plasmid halts the host's aging and prevents natural diseases.</description>
+<transfer>true</transfer>
+<abilities>
+</abilities>
+<geneSet>
+      <li>Ageless</li>
+      <li>DiseaseFree</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+      <li Class="FPMPlasmids.FPM_GeneExtension">
+          <geneRepair>True</geneRepair>
+      </li>
+  </modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+
+
+</Defs>

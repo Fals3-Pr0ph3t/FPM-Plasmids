@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <GeneDef>
+        <defName>FPM_Necrotic</defName>
+        <geneClass>EBSGFramework.Gene_CustomizableClotting</geneClass>
+        <label>necrotic</label>
+        <description>Carriers of this gene are unable to heal, but they also can't bleed out.</description>
+        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
+        <displayCategory>Healing</displayCategory>
+        <displayOrderInCategory>600</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <InjuryHealingFactor>0.0</InjuryHealingFactor>
+        </statFactors>
+        <modExtensions>
+            <li Class="EBSGFramework.EBSGExtension">
+                <clotCheckInterval>120</clotCheckInterval>
+                <minTendQuality>0.0</minTendQuality>
+                <maxTendQuality>1.0</maxTendQuality>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityCategoryDef>
+    <defName>Plasmid</defName>
+    <displayOrder>2000</displayOrder>
+  </AbilityCategoryDef>
+
+<AbilityDef ParentName="AbilityTouchBase">
+	<defName>ImplantPlasmid</defName>
+	<label>implant plasmid</label>
+	<description>Implant a plasmid into the target.</description>
+	<category>Plasmid</category>
+	<iconPath>UI/Icons/Genes/Gene_XenogermReimplanter</iconPath>
+    <warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+    <warmupEffecter>Implant_Xenogerm</warmupEffecter>
+    <displayOrder>500</displayOrder>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <warmupTime>4</warmupTime>
+      <stunTargetOnCastStart>true</stunTargetOnCastStart>
+      <targetParams>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="FPMPlasmids.AbilityCompProperties_PlasmidImplanter"></li>
+    </comps>
+  </AbilityDef>
+
+<!-- line break -->
+
+
+
+
+
+
+</Defs>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<FPMPlasmids.PlasmidDef Name="PlasmidBase" Abstract="True">
+<description>A bundle of genes that can be passed on</description>
+<iconPath>UI/Icons/Genes/Gene_XenogermReimplanter</iconPath>
+<label>Plasmid</label>
+<transfer>false</transfer>
+</FPMPlasmids.PlasmidDef>
+
+
+
+
+
+
+<!-- 
+Ok so thank you for downloading my mod, I made this mod to be customizable so that
+you can set up whatever you want.  Below is a nice "fill in the blank" version
+of a plasmid so you can start making your own. 
+-->
+<!--
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName> Replace with your plasmid name </defName>
+<label> Replace with the in-game label </label>
+<transfer>false</transfer>  this will delete the plasmid geneSet from the caster if true
+<xenogene>false</xenogene>  this will have the genes be applied as xenogenes if true
+<abilities>
+    Add abilities here, e.g., <li>ImplantPlasmid</li> will allow you to spread plasmids
+</abilities>
+<geneSet>
+    Genes to be added to the target and removed from the caster if transfer is set to true
+</geneSet>
+<removedGenes>
+    Genes to be removed from the caster
+</removedGenes>
+</FPMPlasmids.PlasmidDef>
+-->
+
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>implantPlasmid</defName>
+<label>implant plasmid</label>
+<transfer>false</transfer>
+<abilities>
+    <li>ImplantPlasmid</li>
+</abilities>
+<geneSet>
+    <li>implantPlasmid</li> <!--If this isn't here then the plasmid won't propagate.-->
+</geneSet>
+<removedGenes>
+</removedGenes>
+</FPMPlasmids.PlasmidDef>
+
+<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<defName>repairtest</defName>
+<label>gene repair</label>
+<transfer>false</transfer>
+<abilities>
+</abilities>
+<geneSet>
+    <li>repairtest</li> <!--If this isn't here then the plasmid won't propagate.-->
+    <li>KindInstinct</li>
+    <li>Nearsighted</li>
+</geneSet>
+<removedGenes>
+</removedGenes>
+<modExtensions>
+    <li Class="FPMPlasmids.FPM_GeneExtension">
+        <geneRepair>True</geneRepair>
+        <!-- <plasmidImplanter>True</plasmidImplanter> -->
+    </li>
+</modExtensions>
+</FPMPlasmids.PlasmidDef>
+
+
+</Defs>
