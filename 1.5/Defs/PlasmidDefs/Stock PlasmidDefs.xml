@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
+<!-- <FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
 <defName>GeneticBanshee</defName>
 <label>genetic banshee</label>
 <description>This plasmid infuses the host with the eerie qualities of a banshee.</description>
@@ -163,7 +163,7 @@
           <geneRepair>True</geneRepair>
       </li>
   </modExtensions>
-</FPMPlasmids.PlasmidDef>
+</FPMPlasmids.PlasmidDef> -->
 
 
 

@@ -11,7 +11,7 @@
 	<label>implant plasmid</label>
 	<description>Implant a plasmid into the target.</description>
 	<category>Plasmid</category>
-	<iconPath>UI/Icons/Genes/Gene_XenogermReimplanter</iconPath>
+	<iconPath>UI/Icons/Gizmos/TransferPlasmid</iconPath>
     <warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
     <warmupEffecter>Implant_Xenogerm</warmupEffecter>
     <displayOrder>500</displayOrder>
@@ -35,6 +35,35 @@
     </comps>
   </AbilityDef>
 
+  <!-- <AbilityDef ParentName="AbilityTouchBase">
+    <defName>RepairGenes</defName>
+    <label>repair genes</label>
+    <description>Trigger archites to process plasmids.</description>
+    <category>Plasmid</category>
+    <iconPath>UI/Icons/Gizmos/GeneRepair</iconPath>
+      <warmupStartSound>ReimplantXenogerm_Cast</warmupStartSound>
+      <warmupEffecter>Implant_Xenogerm</warmupEffecter>
+      <displayOrder>500</displayOrder>
+      <hostile>false</hostile>
+      <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <drawAimPie>false</drawAimPie>
+        <requireLineOfSight>false</requireLineOfSight>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <warmupTime>1</warmupTime>
+        <range>19.9</range>
+        <targetable>false</targetable>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+        </targetParams>
+      </verbProperties>
+      <comps>
+        <li Class="FPMPlasmids.AbilityCompProperties_GeneRepair"></li>
+      </comps>
+    </AbilityDef> -->
+
+
 <!-- line break -->
 
 
@@ -43,4 +72,3 @@
 
 
 </Defs>
-

@@ -36,10 +36,14 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>Ludeon.RimWorld.Biotech</li>
-		<li>ebsg.framework</li>
-		<li>oskarpotocki.vanillafactionsexpanded.core</li>
 		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>ebsg.framework</li>
 	</loadAfter>
     <loadBefore>
 	</loadBefore>
