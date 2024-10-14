@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\methods\\fpm_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\fpm-plasmids\\1.5\\source\\fpm-plasmids\\methods\\fpm_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|solutionrelative:methods\\fpm_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\fpm-plasmids\\1.5\\source\\fpm-plasmids\\abilites\\implanter\\compabilityeffect_plasmidimplanter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\abilites\\implanter\\compabilityeffect_plasmidimplanter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FE8982-48CD-4881-B4A6-BCB9A6167DFB}|FPM-Plasmids.csproj|solutionrelative:abilites\\implanter\\compabilityeffect_plasmidimplanter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "Harmony\\StaticConstructors.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:48:14.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T14:48:14.956Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Mechanics\\PlasmidFlu.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAiwBgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T14:30:05.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T14:30:05.894Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Mechanics\\Plasmogerm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T03:45:26.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T03:45:26.414Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "Abilites\\Implanter\\CompProperties_PlasmidImplanter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T07:59:07.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T07:59:07.215Z"
             },
             {
               "$type": "Document",
@@ -106,8 +102,7 @@
               "RelativeToolTip": "Mechanics\\GeneExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T07:30:35.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T07:30:35.304Z"
             },
             {
               "$type": "Document",
@@ -117,7 +112,7 @@
               "RelativeDocumentMoniker": "Methods\\FPM_Utils.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\FPM-Plasmids\\1.5\\Source\\FPM-Plasmids\\Methods\\FPM_Utils.cs",
               "RelativeToolTip": "Methods\\FPM_Utils.cs",
-              "ViewState": "AQIAABwBAAAAAAAAAAAYwFsBAAAbAAAA",
+              "ViewState": "AQIAAEkBAAAAAAAAAAAiwFsBAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T08:10:28.45Z",
               "EditorCaption": ""
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Abilites\\Implanter\\CompAbilityEffect_PlasmidImplanter.cs",
               "ViewState": "AQIAAJIAAAAAAAAAAAAowK4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:51:50.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T06:51:50.025Z"
             }
           ]
         }
