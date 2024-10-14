@@ -1,24 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
+
 
 <Defs>
-<FPMPlasmids.PlasmidDef Name="PlasmidBase" Abstract="True">
-<description>A bundle of genes that can be passed on</description>
-<iconPath>UI/Icons/Genes/Gene_XenogermReimplanter</iconPath>
-<label>Plasmid</label>
-<transfer>false</transfer>
-</FPMPlasmids.PlasmidDef>
+
+    <GeneCategoryDef>
+        <defName>Plasmids</defName>
+        <label>plasmid</label>
+        <displayPriorityInXenotype>900</displayPriorityInXenotype>
+    </GeneCategoryDef>
 
 
+    <GeneDef Name="PlasmidBase" Abstract="True">
+        <description>A bundle of genes that can be passed on</description>
+        <iconPath>UI/Icons/Genes/Plasmid</iconPath>
+        <displayCategory>Plasmids</displayCategory>
+        <label>Plasmid</label>
+    </GeneDef>
 
 
-
-
-<!-- 
+    <!-- 
 Ok so thank you for downloading my mod, I made this mod to be customizable so that
 you can set up whatever you want.  Below is a nice "fill in the blank" version
 of a plasmid so you can start making your own. 
 -->
-<!--
+    <!--
 <FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
 <defName> Replace with your plasmid name </defName>
 <label> Replace with the in-game label </label>
@@ -28,49 +33,65 @@ of a plasmid so you can start making your own.
     Add abilities here, e.g., <li>ImplantPlasmid</li> will allow you to spread plasmids
 </abilities>
 <geneSet>
-    Genes to be added to the target and removed from the caster if transfer is set to true
+    Genes to be added to the target and suppressed from the caster if transfer is set to true
 </geneSet>
-<removedGenes>
-    Genes to be removed from the caster
-</removedGenes>
+<suppressedGenes>
+    Genes to be suppressed from the caster
+</suppressedGenes>
 </FPMPlasmids.PlasmidDef>
 -->
 
 
-<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
-<defName>implantPlasmid</defName>
-<label>implant plasmid</label>
-<transfer>false</transfer>
-<abilities>
-    <li>ImplantPlasmid</li>
-</abilities>
-<geneSet>
-    <li>implantPlasmid</li> <!--If this isn't here then the plasmid won't propagate.-->
-</geneSet>
-<removedGenes>
-</removedGenes>
-</FPMPlasmids.PlasmidDef>
+    <GeneDef ParentName="PlasmidBase">
+        <defName>TestPlasmid01</defName>
+        <geneClass>FPMPlasmids.Plasmid</geneClass>
+        <label>AAA plasmid</label>
+        <iconPath>UI/Icons/Genes/Gene_Resurrect</iconPath>
+        <abilities>
+            <li>ImplantPlasmid</li>
+        </abilities>
+        <modExtensions>
+            <li Class="FPMPlasmids.FPM_GeneExtension">
+                <plasmidInfo>
+                    <addedGenes>
+                        <li>KindInstinct</li>
+                        <li>Nearsighted</li>
+                    </addedGenes>
+                    <suppressedGenes>
+                    </suppressedGenes>
+                    <transferType>Apply</transferType>
+                </plasmidInfo>
+            </li>
+        </modExtensions>
+    </GeneDef>
 
-<FPMPlasmids.PlasmidDef ParentName="PlasmidBase">
-<defName>repairtest</defName>
-<label>gene repair</label>
-<transfer>false</transfer>
-<abilities>
-</abilities>
-<geneSet>
-    <li>repairtest</li> <!--If this isn't here then the plasmid won't propagate.-->
-    <li>KindInstinct</li>
-    <li>Nearsighted</li>
-</geneSet>
-<removedGenes>
-</removedGenes>
-<modExtensions>
-    <li Class="FPMPlasmids.FPM_GeneExtension">
-        <geneRepair>True</geneRepair>
-        <!-- <plasmidImplanter>True</plasmidImplanter> -->
-    </li>
-</modExtensions>
-</FPMPlasmids.PlasmidDef>
+    <GeneDef ParentName="PlasmidBase">
+        <defName>TestPlasmid02</defName>
+        <geneClass>FPMPlasmids.Plasmid</geneClass>
+        <label>AAB plasmid</label>
+        <iconPath>UI/Icons/Genes/Gene_Resurrect</iconPath>
+        <abilities>
+            <li>ImplantPlasmid</li>
+        </abilities>
+        <modExtensions>
+            <li Class="FPMPlasmids.FPM_GeneExtension">
+                <plasmidImplanter>true</plasmidImplanter>
+                <plasmidInfo>
+                    <addedGenes>
+                        <li>WoundHealing_SuperFast</li>
+                        <li>Immunity_SuperStrong</li>
+                        <li>Superclotting</li>
+                        <li>PsychicAbility_Dull</li>
+                    </addedGenes>
+                    <suppressedGenes>
+                        <li>KindInstinct</li>
+                        <li>Nearsighted</li>
+                    </suppressedGenes>
+                    <transferType>Transfer</transferType>
+                </plasmidInfo>
+            </li>
+        </modExtensions>
+    </GeneDef>
 
 
 </Defs>
